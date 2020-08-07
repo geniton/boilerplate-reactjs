@@ -1,4 +1,4 @@
-# Workflow ReactJS
+# Boilerplate ReactJS
 
 ## What's inside it?
 
@@ -19,8 +19,6 @@
 
 ## Up and running
 
-- Clone this repository: `git clone git@github.com:fdaciuk/workflow-reactjs.git`;
-- Remove `.git` directory;
 - Install dependencies: `yarn` (or `npm i`);
 - Run `yarn dev` (or `npm start`) to develop on `http://localhost:3000`
 - Run `yarn build` (or `npm run build`) for production build (files will be generated on `dist` directory)
@@ -33,7 +31,6 @@ because `spawn` module does not work very well on Windows.
 You should install `cross-spawn`, and edit `gulpfile.js`, removing line `4` and
 uncomment line `7`.
 
-A big thanks to [@hgtpcastro](https://github.com/hgtpcastro) for this tip.
 
 ## Scripts
 
@@ -46,7 +43,3 @@ A big thanks to [@hgtpcastro](https://github.com/hgtpcastro) for this tip.
 - `yarn storybook:build`: Build Storybook to static files
 - `yarn update-packages`: Update all packages to the latest version
 - `yarn start (or npm start)`: Special script reserved to run production code. Change as you wish. For now, it is the same as `yarn dev`.
-
-## License
-
-[MIT](https://github.com/fdaciuk/licenses/blob/master/MIT-LICENSE.md) &copy; Fernando Daciuk
